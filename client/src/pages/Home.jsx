@@ -23,7 +23,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://ai-image-generator-7ysq.onrender.com//api/v1/dalle", {
+      const response = await fetch("https://ai-image-generator-7ysq.onrender.com/api/v1/dalle", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
